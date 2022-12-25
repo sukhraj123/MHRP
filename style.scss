@@ -1,7 +1,7 @@
 
 html,
 body {
- background-image: url(/images/jason-leem-DLrrGpJOOMI-unsplash.jpg) ;
+ background-image: url(/images/thom-holmes-k-xKzowQRn8-unsplash.jpg) ;
  background-size: 100%;
   background-attachment: fixed;
   padding: 0;
@@ -220,9 +220,8 @@ transform: translate(-10%, 10%);
 
   }
   .text-topp{
-    width: 100%;
-    background-image: url(/images/thom-holmes-RqASow2Y6Os-unsplash.jpg) ;
-    background-size: 100%;
+    width: 60%;
+    
     height: 80vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -256,6 +255,7 @@ display: flex;
   h2{
     color: #fff;
     font-weight: 300;
+    font-size: 26px;
   }
   .text-topt h1{
     font-size: 40px;
@@ -270,13 +270,22 @@ display: flex;
     color: #fff;
     width: fit-content;
     background-color: #00000072;
+    border-radius: 10px;
   }
     .text-top p{
     font-size: 30px;
-    font-weight: 200;
+    font-weight: 400;
     color: #fff;
     width: fit-content;
     
+  }
+  .quote{
+    background-color: #000000;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .quote h1{
+    font-size: 32px;
   }
   .text-top a{
     color: #fff;
@@ -289,7 +298,7 @@ display: flex;
     background-color: #00000072;
   }
   .main-image img{
-    width: 100%;
+    width: 90%;
     
   }
  .images-section img{
@@ -410,7 +419,8 @@ display: flex;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: #fcfcfc;
+  border-radius: 10px;
   
 }
 .card p{
@@ -441,7 +451,7 @@ h2{
   .nav-links ul li{
     display: block;
     color: #000000;
-    border: #00dcd1;
+    border: #2957f1;
 }
 .nav-links ul li a{
     display: block;
